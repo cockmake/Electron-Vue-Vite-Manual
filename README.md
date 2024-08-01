@@ -5,10 +5,10 @@
 
 ```sh
 # clone the project
-git clone https://github.com/cockmake/Electron-Vue-Vite-Template.git
+git clone https://github.com/cockmake/Electron-Vue-Vite-Manual.git
 
 # enter the project directory
-cd Electron-Vue-Vite-Template
+cd Electron-Vue-Vite-Manual
 
 # install dependency
 npm install
