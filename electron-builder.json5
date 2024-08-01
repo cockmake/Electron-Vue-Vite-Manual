@@ -11,6 +11,7 @@
     "dist",
     "dist-electron"
   ],
+
   "mac": {
     "target": [
       "dmg"
@@ -27,8 +28,8 @@
       }
     ],
     "icon": "public/icon.ico",
-
-    "artifactName": "${productName}-Windows-${version}-Setup.${ext}"
+    "artifactName": "${productName}-Windows-${version}-Setup.${ext}",
+    "requestedExecutionLevel": "requireAdministrator"
   },
   "nsis": {
     "oneClick": false,
